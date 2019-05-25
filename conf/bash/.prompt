@@ -1,0 +1,11 @@
+# Liquid Prompt
+source ~/.me/plugin/liquidprompt
+LP_USER_ALWAYS=false
+LP_USER=""
+LP_BATTERY_THRESHOLD=100
+LP_LOAD_THRESHOLD=25
+LP_TEMP_THRESHOLD=0
+LP_PATH_LENGTH=20
+
+
+

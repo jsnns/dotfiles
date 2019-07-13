@@ -20,24 +20,23 @@ brew install zsh
 brew install terraform
 
 # GUI Applications
-brew cask install atom
-brew cask install dropbox
-brew cask install firefox
 brew cask install google-chrome
 brew cask install spotify
-brew cask install sublime-text3
-brew cask install virtualbox
 brew cask install visual-studio-code
 brew cask install docker
-brew cask install alfred
 brew cask install iterm2
+
+# Install Node Packages
+node i -g yarn 
+node i -g expo 
+node i -g create-react-app
 
 # ZSH default shell
 chsh -s $(which zsh)
 
 # Configure MacOS Settings
 # Screen shots
-defaults write com.apple.screencapture location -string "$HOME/Desktop"
+defaults write com.apple.screencapture location -string "$HOME/Documents/Screenshots"
 
 # Finder
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true

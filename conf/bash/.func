@@ -31,6 +31,11 @@ function up() {
 
 }
 
+# run ./run for a project
+function run() {
+  (@go $1 && ./run)
+}
+
 # make a run file and make it exec-able
 function runable() {
   echo $1 > run

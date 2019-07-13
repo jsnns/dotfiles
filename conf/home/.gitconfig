@@ -1,6 +1,6 @@
 [user]
-	name = jsnns
-	email = jacobsansbu@icloud.com
+	name = Jacob Sansbury
+	email = dev.sansbury.jacob@dev.bwater.com
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f

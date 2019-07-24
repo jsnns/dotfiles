@@ -11,6 +11,8 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew tap caskroom/cask
 brew tap caskroom/versions
 
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+
 # CLI Applications
 brew install node
 brew install wget

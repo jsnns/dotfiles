@@ -21,8 +21,8 @@ function exp () {
 }
 
 # Push project to git
-function psh () {
-  (cd ~/prj/$1 && git push origin HEAD:refs/for/$2)
+function @push () {
+  (@go $1 && git push origin $2)
 }
 
 # Init gerrit repo
@@ -37,6 +37,11 @@ function @new () {
       mk ~/prj/$2
       @go $2
       git clone git@gitlab.com:$2.git .
+  elif [ $1 = "--github" ]
+    then
+      mk ~/prj/$2
+      @go $2
+      git clone git@github.com:$2.git .
   else
     mk ~/prj/$1
   fi

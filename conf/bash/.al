@@ -6,7 +6,7 @@ alias ....="cd ../../.."
 
 alias commit="EDITOR=vim git commit"
 
-alias gohome="cd ~"
+alias gohome="cd ~/.me"
 alias gossh="cd ~/.ssh"
 
 alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"

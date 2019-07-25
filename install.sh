@@ -11,6 +11,10 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew tap caskroom/cask
 brew tap caskroom/versions
 
+
+brew tap d12frosted/emacs-plus
+brew install emacs-plus
+brew linkapps emacs-plus
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 
 # CLI Applications

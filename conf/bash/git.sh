@@ -21,6 +21,9 @@ function @git() {
 		if [ $2 = "--email" ]
 			then
 				@checkGitEmail
+		elif [ $2 = "--origin" ]
+			then
+				echo $(git remote get-url origin)
 		fi
   fi
 }

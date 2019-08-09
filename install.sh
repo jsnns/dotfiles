@@ -6,43 +6,13 @@ do
 	ln -sv $HOMECONF ~
 done
 
-# Install Brew and Brew Packages
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew tap caskroom/cask
-brew tap caskroom/versions
-
-
-brew tap d12frosted/emacs-plus
-brew install emacs-plus
-brew linkapps emacs-plus
-git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
-
-# CLI Applications
-brew install node
-brew install wget
-brew install git
-brew install awscli
-brew install zsh
-brew install terraform
-
-# GUI Applications
-brew cask install google-chrome
-brew cask install spotify
-brew cask install visual-studio-code
-brew cask install docker
-brew cask install iterm2
-
-# Install Node Packages
-node i -g yarn 
-node i -g expo 
-node i -g create-react-app
+for INSTALLFILE in `find ~/.me/install`
+do
+	bash INSTALLFILE
+done
 
 # ZSH default shell
 chsh -s $(which zsh)
 
-# Configure MacOS Settings
-# Screen shots
-defaults write com.apple.screencapture location -string "$HOME/Documents/Screenshots"
-
-# Finder
-defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+# download zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions /usr/local/share/zsh-autosuggestions

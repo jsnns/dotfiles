@@ -5,6 +5,7 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 
 alias commit="EDITOR=vim git commit"
+alias please='sudo $(history -p !!)'
 
 alias gohome="cd ~/.me"
 alias gossh="cd ~/.ssh"

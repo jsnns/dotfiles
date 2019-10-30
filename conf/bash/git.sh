@@ -13,7 +13,7 @@ function @git() {
 				git config --local user.email "sansburyjacob@gmail.com"
 		elif [ $2 = "--bw" ]
 			then
-				git config --local user.email "bw.Jacob.Sansbury@dev.bwater.com"
+				git config --local user.email "dev.Sansbury.Jacob@dev.bwater.com"
 		fi
 		@checkGitEmail
   elif [ $1 = "check" ]

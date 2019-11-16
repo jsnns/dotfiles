@@ -22,3 +22,5 @@ else
 fi
 unset __conda_setup
 # <<< conda init <<<
+
+source /usr/local/share/antigen/antigen.zsh

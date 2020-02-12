@@ -4,6 +4,14 @@ function @checkGitEmail() {
 	echo "Local git email is: " $(git config --local --get user.email)
 }
 
+fucntion @tree() {
+	TREE_PATH=`git rev-parse --show-toplevel`/trees/`echo "$1" | sed 's/\//-/g'`
+	echo $TREE_PATH
+	git worktree add "$TREE_PATH" "$1"
+	cd "$TREE_PATH"
+	git submodule update --init
+}
+
 function @git() {
   if [ $1 = "user" ]
   	 git config --local user.name "Jacob Sansbury"

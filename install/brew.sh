@@ -28,3 +28,6 @@ brew cask install rescuetime
 brew cask install 1password
 brew cask install slack
 brew cask install omnifocus
+
+# install rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh

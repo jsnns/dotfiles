@@ -24,3 +24,5 @@ unset __conda_setup
 # <<< conda init <<<
 
 source /usr/local/share/antigen/antigen.zsh
+
+export PATH="$HOME/.cargo/bin:$PATH"

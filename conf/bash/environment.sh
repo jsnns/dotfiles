@@ -5,4 +5,4 @@ export LSCOLORS=gxfxcxdxbxegedabagacad
 # Tell grep to highlight matches
 export GREP_OPTIONS='--color=auto'
 
-bindkey '^ ' autosuggest-accept
+bindkey '^f' autosuggest-accept

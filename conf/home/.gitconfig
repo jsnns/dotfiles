@@ -1,8 +1,13 @@
-[user]
-	name = Jacob Sansbury
-	email = me@workbyjacob.com
+[gpg]
+	program = gpg
+[commit]
+	gpgsign = true
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = Jacob Sansbury
+	email = sansburyjacob@gmail.com
+	signingkey = 7120F5078653A62F

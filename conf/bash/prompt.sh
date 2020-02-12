@@ -6,17 +6,15 @@ LP_BATTERY_THRESHOLD=100
 LP_LOAD_THRESHOLD=25
 LP_TEMP_THRESHOLD=0
 LP_PATH_LENGTH=20
+LP_PS1_POSTFIX="--> "
 
 # enable auto suggestions
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export EDITOR=vim
 export PATH="$HOME/.cargo/bin:$PATH"
 
-# 0 -- vanilla completion (abc => abc)
-# 1 -- smart case completion (abc => Abc)
-# 2 -- word flex completion (abc => A-big-Car)
-# 3 -- full flex completion (abc => ABraCadabra)
 zstyle ':completion:*' matcher-list '' \
   'm:{a-z\-}={A-Z\_}' \
   'r:[^[:alpha:]]||[[:alpha:]]=** r:|=* m:{a-z\-}={A-Z\_}' \

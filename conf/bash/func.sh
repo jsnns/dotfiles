@@ -28,7 +28,6 @@ function up() {
     then
       docker-compose up --build
   fi
-
 }
 
 # run ./run for a project

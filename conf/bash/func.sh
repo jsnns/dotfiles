@@ -42,5 +42,5 @@ function runable() {
 }
 
 function labs() {
-  run -/py/jup
+  run lang/py/jup
 }

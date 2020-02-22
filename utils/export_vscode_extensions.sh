@@ -1,0 +1,1 @@
+code --list-extensions > ../conf/vscode/extensions.txt

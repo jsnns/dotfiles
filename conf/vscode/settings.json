@@ -1,0 +1,68 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": 0,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "workbench.sideBar.location": "left",
+    "workbench.editor.labelFormat": "short",
+    "git.autofetch": true,
+    "git.autoStash": true,
+    "git.enableCommitSigning": true,
+    "git.fetchOnPull": true,
+    "git.enableSmartCommit": true,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.fontFamily": "'Fira Code'",
+    "git.confirmSync": false,
+    "explorer.autoReveal": false,
+    "files.autoSave": "afterDelay",
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "vscode_custom_css.imports": [
+        "file:///Users/jacobsansbury/.me/vscode.css"
+    ],
+    "typescript.updateImportsOnFileMove.enabled": "always",
+}

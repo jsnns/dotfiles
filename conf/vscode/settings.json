@@ -1,6 +1,6 @@
 {
     "workbench.iconTheme": "vscode-icons",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.formatOnSave": true,
@@ -11,6 +11,7 @@
     "git.enableCommitSigning": true,
     "git.fetchOnPull": true,
     "git.enableSmartCommit": true,
+    "rust-client.enableMultiProjectSetup": true,
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -60,9 +61,11 @@
         "<C-a>": false,
         "<C-f>": false
     },
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
     "vscode_custom_css.imports": [
         "file:///Users/jacobsansbury/.me/vscode.css"
     ],
     "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "python.pythonPath": "/Users/jacobsansbury/.local/share/virtualenvs/jsnns-4LXk0B_e/bin/python"
 }

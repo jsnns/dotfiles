@@ -1,6 +1,8 @@
+PROJECT_DIR="Projects"
+
 # Go to sf1 directory
 function sfo () {
-  cd ~/prj/secforceone/$1
+  cd ~/$PROJECT_DIR/secforceone/$1
 }
 
 # make dir and enter it
@@ -11,12 +13,12 @@ function mk () {
 
 # Cd into project dir
 function @go () {
-  cd ~/prj/$1
+  cd ~/$PROJECT_DIR/$1
 }
 
 # Checkout Experimental Branch
 function exp () {
-  cd ~/prj/experimental
+  cd ~/$PROJECT_DIR/experimental
   git checkout user/bw-jacob-sansbury/$1
 }
 
@@ -29,20 +31,20 @@ function @push () {
 function @new () {
   if [ $1 = "--gerrit" ]
     then
-      mk ~/prj/$2
+      mk ~/$PROJECT_DIR/$2
       @go $2
-      git clone ssh://bw-jacob-sansbury@gerrit.devtools.bwce.io:29418/$2 . && scp -p -P 29418 bw-jacob-sansbury@gerrit.devtools.bwce.io:hooks/commit-msg ~/prj/$1/.git/hooks/
+      git clone ssh://bw-jacob-sansbury@gerrit.devtools.bwce.io:29418/$2 . && scp -p -P 29418 bw-jacob-sansbury@gerrit.devtools.bwce.io:hooks/commit-msg ~/$PROJECT_DIR/$1/.git/hooks/
   elif [ $1 = "--gitlab" ]
     then
-      mk ~/prj/$2
+      mk ~/$PROJECT_DIR/$2
       @go $2
       git clone git@gitlab.com:$2.git .
   elif [ $1 = "--github" ]
     then
-      mk ~/prj/$2
+      mk ~/$PROJECT_DIR/$2
       @go $2
       git clone git@github.com:$2.git .
   else
-    mk ~/prj/$1
+    mk ~/$PROJECT_DIR/$1
   fi
 }

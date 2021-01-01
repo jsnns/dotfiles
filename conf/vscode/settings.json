@@ -1,6 +1,7 @@
 {
     "workbench.iconTheme": "vscode-icons",
     "window.zoomLevel": 1,
+    "explorer.autoReveal": true,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.formatOnSave": true,
@@ -17,8 +18,10 @@
     },
     "terminal.integrated.fontFamily": "'Fira Code'",
     "git.confirmSync": false,
-    "explorer.autoReveal": false,
     "files.autoSave": "afterDelay",
+    "editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	},
     "vim.easymotion": true,
     "vim.sneak": true,
     "vim.incsearch": true,
@@ -67,5 +70,20 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
     "editor.multiCursorModifier": "ctrlCmd",
     "latex-workshop.view.pdf.viewer": "tab",
-    "python.pythonPath": "/Users/jacobsansbury/.local/share/virtualenvs/jsnns-4LXk0B_e/bin/python"
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.defaultInterpreterPath": "/Users/jacobsansbury/.local/share/virtualenvs/jsnns-4LXk0B_e/bin/python",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }

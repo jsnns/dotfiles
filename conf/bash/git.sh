@@ -19,9 +19,9 @@ function @git() {
 		if [ $2 = "--jsnns" ]
 			then
 				git config --local user.email "sansburyjacob@gmail.com"
-		elif [ $2 = "--bw" ]
+		elif [ $2 = "--nv" ]
 			then
-				git config --local user.email "dev.Sansbury.Jacob@dev.bwater.com"
+				git config --local user.email "jsansbury@nvidia.com"
 		fi
 		@checkGitEmail
   elif [ $1 = "check" ]

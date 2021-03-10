@@ -1,71 +1,90 @@
 {
-    "workbench.iconTheme": "vscode-icons",
-    "window.zoomLevel": 1,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "editor.formatOnSave": true,
-    "workbench.sideBar.location": "left",
-    "workbench.editor.labelFormat": "short",
-    "git.autofetch": true,
-    "git.autoStash": true,
-    "git.enableCommitSigning": true,
-    "git.fetchOnPull": true,
-    "git.enableSmartCommit": true,
-    "rust-client.enableMultiProjectSetup": true,
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "workbench.sideBar.location": "left",
+  "workbench.editor.labelFormat": "short",
+  "git.autofetch": true,
+  "git.autoStash": true,
+  "git.enableCommitSigning": true,
+  "git.fetchOnPull": true,
+  "git.enableSmartCommit": true,
+  "rust-client.enableMultiProjectSetup": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {},
+
+  "terminal.integrated.fontFamily": "'Fira Code'",
+  "git.confirmSync": false,
+  "explorer.autoReveal": true,
+  "files.autoSave": "afterDelay",
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
     },
-    "terminal.integrated.fontFamily": "'Fira Code'",
-    "git.confirmSync": false,
-    "explorer.autoReveal": false,
-    "files.autoSave": "afterDelay",
-    "vim.easymotion": true,
-    "vim.sneak": true,
-    "vim.incsearch": true,
-    "vim.useSystemClipboard": true,
-    "vim.useCtrlKeys": true,
-    "vim.hlsearch": true,
-    "vim.insertModeKeyBindings": [
-        {
-            "before": [
-                "j",
-                "j"
-            ],
-            "after": [
-                "<Esc>"
-            ]
-        }
-    ],
-    "vim.normalModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<leader>",
-                "d"
-            ],
-            "after": [
-                "d",
-                "d"
-            ]
-        },
-        {
-            "before": [
-                "<C-n>"
-            ],
-            "commands": [
-                ":nohl"
-            ]
-        }
-    ],
-    "vim.leader": "<space>",
-    "vim.handleKeys": {
-        "<C-a>": false,
-        "<C-f>": false
-    },
-    "vscode_custom_css.imports": [
-        "file:///Users/jacobsansbury/.me/vscode.css"
-    ],
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "editor.multiCursorModifier": "ctrlCmd",
-    "latex-workshop.view.pdf.viewer": "tab",
-    "python.pythonPath": "/Users/jacobsansbury/.local/share/virtualenvs/jsnns-4LXk0B_e/bin/python"
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "vscode_custom_css.imports": ["file:///Users/jacobsansbury/.me/vscode.css"],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "latex-workshop.view.pdf.viewer": "tab",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "python.pythonPath": "/Users/jacobsansbury/.local/share/virtualenvs/jsnns-4LXk0B_e/bin/python",
+  "diffEditor.renderSideBySide": false,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorCustomizations": {
+    "terminal.background": "#182125",
+    "terminal.foreground": "#dee2ea",
+    "terminalCursor.background": "#141414",
+    "terminalCursor.foreground": "#c5c5c5",
+    "terminal.ansiBlack": "#2a2a2a",
+    "terminal.ansiBlue": "#3398db",
+    "terminal.ansiBrightBlack": "#dee2ea",
+    "terminal.ansiBrightBlue": "#0095de",
+    "terminal.ansiBrightCyan": "#0092e2",
+    "terminal.ansiBrightGreen": "#07d774",
+    "terminal.ansiBrightMagenta": "#6668c6",
+    "terminal.ansiBrightRed": "#e74c3c",
+    "terminal.ansiBrightWhite": "#ffffff",
+    "terminal.ansiBrightYellow": "#f6c700",
+    "terminal.ansiCyan": "#0095de",
+    "terminal.ansiGreen": "#2fcc71",
+    "terminal.ansiMagenta": "#6171c4",
+    "terminal.ansiRed": "#fc2d1e",
+    "terminal.ansiWhite": "#dee2ea",
+    "terminal.ansiYellow": "#f1c40d"
+  },
+  "workbench.colorTheme": "Community Material Theme High Contrast",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.editor.wrapTabs": true
 }

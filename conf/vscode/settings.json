@@ -86,5 +86,10 @@
   "workbench.colorTheme": "Community Material Theme High Contrast",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "vsicons.dontShowNewVersionMessage": true,
-  "workbench.editor.wrapTabs": true
+  "workbench.editor.wrapTabs": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "git.ignoreRebaseWarning": true,
+  "security.workspace.trust.untrustedFiles": "open"
 }

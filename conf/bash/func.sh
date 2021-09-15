@@ -44,3 +44,7 @@ function runable() {
 function labs() {
   run lang/py/jup
 }
+
+function work() {
+  code ~/$PROJECT_DIR/$1.code-workspace
+}

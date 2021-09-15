@@ -10,4 +10,6 @@
 [user]
 	name = Jacob Sansbury
 	email = sansburyjacob@gmail.com
-	signingkey = 7120F5078653A62F
+	signingkey = FABC2E3887909FE5BA11724AE13E7ADE273234E5
+[core]
+	ignorecase = false

@@ -1,6 +1,5 @@
 {
     "workbench.iconTheme": "vscode-icons",
-    "window.zoomLevel": 1,
     "explorer.autoReveal": true,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
@@ -18,7 +17,6 @@
     },
     "terminal.integrated.fontFamily": "'Fira Code'",
     "git.confirmSync": false,
-    "files.autoSave": "afterDelay",
     "editor.codeActionsOnSave": {
 		"source.organizeImports": true
 	},
@@ -84,6 +82,28 @@
     },
     "javascript.updateImportsOnFileMove.enabled": "always",
     "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "python.languageServer": "Pylance",
+    "editor.fontSize": 13,
+    "rust.mode": null,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "typescriptHero.imports.disableImportsSorting": true,
+    "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
 }

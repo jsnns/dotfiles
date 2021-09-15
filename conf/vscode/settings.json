@@ -91,5 +91,7 @@
     "*.ipynb": "jupyter.notebook.ipynb"
   },
   "git.ignoreRebaseWarning": true,
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }

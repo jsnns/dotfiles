@@ -1,5 +1,5 @@
 # Liquid Prompt
-source ~/.me/plugin/liquidprompt
+# source ~/.me/plugin/liquidprompt
 LP_USER_ALWAYS=false
 LP_USER=""
 LP_BATTERY_THRESHOLD=100

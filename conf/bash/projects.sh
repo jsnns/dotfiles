@@ -29,11 +29,11 @@ function @push () {
 
 # Init gerrit repo
 function @new () {
-  if [ $1 = "--gerrit" ]
+  if [ $1 = "--nv" ]
     then
       mk ~/$PROJECT_DIR/$2
       @go $2
-      git clone ssh://bw-jacob-sansbury@gerrit.devtools.bwce.io:29418/$2 . && scp -p -P 29418 bw-jacob-sansbury@gerrit.devtools.bwce.io:hooks/commit-msg ~/$PROJECT_DIR/$1/.git/hooks/
+      git clone ssh://git@gitlab-master.nvidia.com:12051/$2.git .
   elif [ $1 = "--gitlab" ]
     then
       mk ~/$PROJECT_DIR/$2

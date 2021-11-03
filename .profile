@@ -61,3 +61,5 @@ antigen apply
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 export PATH="$HOME/.cargo/bin:$PATH"
+
+export PATH="$HOME/.poetry/bin:$PATH"

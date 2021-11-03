@@ -13,11 +13,10 @@
   "rust-client.enableMultiProjectSetup": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {},
-
+  "python.venvFolders": ["~/.cache/pypoetry/virtualenvs"],
   "terminal.integrated.fontFamily": "'Fira Code'",
   "git.confirmSync": false,
   "explorer.autoReveal": true,
-  "files.autoSave": "afterDelay",
   "vim.easymotion": true,
   "vim.sneak": true,
   "vim.incsearch": true,
@@ -93,5 +92,10 @@
   "git.ignoreRebaseWarning": true,
   "security.workspace.trust.untrustedFiles": "open",
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "python.insidersChannel": "weekly",
+  "editor.inlineSuggest.enabled": true
 }

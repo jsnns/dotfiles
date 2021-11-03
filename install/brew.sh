@@ -19,15 +19,15 @@ brew install terraform
 brew install golang
 
 # GUI Applications
-brew cask install google-chrome
-brew cask install spotify
-brew cask install visual-studio-code
-brew cask install docker
-brew cask install iterm2
-brew cask install rescuetime
-brew cask install 1password
-brew cask install slack
-brew cask install omnifocus
+brew install google-chrome --cask
+brew install spotify --cask
+brew install visual-studio-code --cask
+brew install docker --cask
+brew install iterm2 --cask
+brew install rescuetime --cask
+brew install 1password --cask
+brew install slack --cask
+brew install omnifocus --cask
 
 # install rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh

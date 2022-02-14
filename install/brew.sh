@@ -1,7 +1,7 @@
 # Install Brew and Brew Packages
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew tap caskroom/cask
-brew tap caskroom/versions
+brew tap homebrew/cask
+brew tap homebrew/cask-versions
 
 # install spacemacs
 brew tap d12frosted/emacs-plus

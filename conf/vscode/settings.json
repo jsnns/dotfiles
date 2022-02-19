@@ -14,6 +14,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {},
   "python.venvFolders": ["~/.cache/pypoetry/virtualenvs"],
+
   "terminal.integrated.fontFamily": "'Fira Code'",
   "git.confirmSync": false,
   "explorer.autoReveal": true,
@@ -90,8 +91,9 @@
   },
   "git.ignoreRebaseWarning": true,
   "security.workspace.trust.untrustedFiles": "open",
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.insidersChannel": "weekly",
+  "editor.fontSize": 15,
+  "editor.inlineSuggest.enabled": true,
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
   },

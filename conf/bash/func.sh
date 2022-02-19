@@ -1,3 +1,7 @@
+function pluto*() {
+  (cd ~/Projects/plutocapital/pluto/k8s && ./deploy_new_image.sh)
+}
+
 # make 'tf' work as 'terraform'
 function tf() {
   terraform "$@"

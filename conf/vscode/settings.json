@@ -1,6 +1,6 @@
 {
   "workbench.iconTheme": "vscode-icons",
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "MonoLisa",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
   "workbench.sideBar.location": "left",
@@ -82,7 +82,6 @@
     "terminal.ansiWhite": "#dee2ea",
     "terminal.ansiYellow": "#f1c40d"
   },
-  "workbench.colorTheme": "Community Material Theme High Contrast",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "vsicons.dontShowNewVersionMessage": true,
   "workbench.editor.wrapTabs": true,
@@ -97,5 +96,32 @@
     "editor.defaultFormatter": "ms-python.python"
   },
   "python.insidersChannel": "weekly",
-  "editor.inlineSuggest.enabled": true
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true,
+    "rust": true,
+    "python": true,
+    "scss": true
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust"
+  },
+  "redhat.telemetry.enabled": true,
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "python.testing.unittestEnabled": true,
+  "editor.accessibilitySupport": "off",
+  "editor.fontSize": 13,
+  "editor.renderWhitespace": "boundary",
+  "editor.cursorStyle": "line-thin",
+  "editor.codeLensFontFamily": "Ariel",
+  "typescript.implementationsCodeLens.enabled": true,
+  "javascript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Material Theme Ocean High Contrast"
 }

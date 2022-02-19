@@ -4,7 +4,7 @@ function @checkGitEmail() {
 	echo "Local git email is: " $(git config --local --get user.email)
 }
 
-fucntion @tree() {
+function @tree() {
 	TREE_PATH=`git rev-parse --show-toplevel`/trees/`echo "$1" | sed 's/\//-/g'`
 	echo $TREE_PATH
 	git worktree add "$TREE_PATH" "$1"

@@ -1,11 +1,12 @@
 {
   "workbench.iconTheme": "vscode-icons",
-  "editor.fontFamily": "MonoLisa",
+  "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
   "workbench.sideBar.location": "left",
   "workbench.editor.labelFormat": "short",
   "git.autofetch": true,
+  "editor.bracketPairColorization.enabled": false,
   "git.autoStash": true,
   "git.enableCommitSigning": true,
   "git.fetchOnPull": true,
@@ -91,7 +92,6 @@
   },
   "git.ignoreRebaseWarning": true,
   "security.workspace.trust.untrustedFiles": "open",
-  "python.insidersChannel": "weekly",
   "editor.fontSize": 15,
   "editor.inlineSuggest.enabled": true,
   "[python]": {
@@ -124,6 +124,5 @@
   "typescript.implementationsCodeLens.enabled": true,
   "javascript.referencesCodeLens.enabled": true,
   "typescript.referencesCodeLens.enabled": true,
-  "window.zoomLevel": 1,
-  "workbench.colorTheme": "Material Theme Ocean High Contrast"
+  "window.zoomLevel": 1
 }

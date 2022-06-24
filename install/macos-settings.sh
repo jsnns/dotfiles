@@ -3,7 +3,7 @@
 defaults write com.apple.screencapture location -string "$HOME/Documents/Screenshots"
 
 # finder
-defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool false
 defaults write com.apple.finder _FXSortFoldersFirstOnDesktop -bool true
 
 # dock

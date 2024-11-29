@@ -46,3 +46,8 @@ export PATH="$HOME/.poetry/bin:$PATH"
 
 # Setup zsh-autosuggestions
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Created by `pipx` on 2023-03-23 02:33:28
+export PATH="$PATH:/Users/jacobsansbury/.local/bin"
+export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"

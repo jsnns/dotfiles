@@ -13,3 +13,5 @@
 	signingkey = 18F64DE2F41B5A18
 [core]
 	ignorecase = false
+[init]
+	defaultBranch = master

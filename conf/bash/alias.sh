@@ -19,3 +19,6 @@ alias pyenv3="pipenv install --python=3.7"
 
 alias kstage="doctl kubernetes cluster kubeconfig save 41dfdb30-b64f-46f9-b769-946b7a42a965"
 alias kprod="doctl kubernetes cluster kubeconfig save c5978efc-15b4-4e88-aff1-9125555b6427"
+alias k="kubectl $@"
+
+export EDITOR="code -w" 

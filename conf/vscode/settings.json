@@ -3,12 +3,12 @@
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
+  "typescript.validate.enable": true,
   "workbench.sideBar.location": "left",
   "workbench.editor.labelFormat": "short",
   "git.autofetch": true,
   "editor.bracketPairColorization.enabled": false,
   "git.autoStash": true,
-  "git.enableCommitSigning": true,
   "git.fetchOnPull": true,
   "git.enableSmartCommit": true,
   "rust-client.enableMultiProjectSetup": true,
@@ -16,9 +16,8 @@
   "editor.codeActionsOnSave": {},
   "python.venvFolders": ["~/.cache/pypoetry/virtualenvs"],
 
-  "terminal.integrated.fontFamily": "'Fira Code'",
+  "terminal.integrated.fontFamily": "MonoLisa",
   "git.confirmSync": false,
-  "explorer.autoReveal": true,
   "vim.easymotion": true,
   "vim.sneak": true,
   "vim.incsearch": true,
@@ -50,8 +49,6 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.multiCursorModifier": "ctrlCmd",
   "latex-workshop.view.pdf.viewer": "tab",
-  "terminal.integrated.shell.osx": "/bin/zsh",
-  "python.pythonPath": "/Users/jacobsansbury/.local/share/virtualenvs/jsnns-4LXk0B_e/bin/python",
   "diffEditor.renderSideBySide": false,
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -88,22 +85,28 @@
   "vsicons.dontShowNewVersionMessage": true,
   "workbench.editor.wrapTabs": true,
   "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
+    "*.ipynb": "jupyter.notebook.ipynb",
+    "*.xlsx": "default"
   },
   "git.ignoreRebaseWarning": true,
   "security.workspace.trust.untrustedFiles": "open",
+<<<<<<< HEAD
   "editor.fontSize": 15,
   "editor.inlineSuggest.enabled": true,
+=======
+>>>>>>> 91e705b (Update brew.sh and use cask for Homebrew installation)
   "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnType": true
   },
-  "python.insidersChannel": "weekly",
+  "python.defaultInterpreterPath": "/Users/jacobsansbury/Projects/pluto-hq/pluto/.venv/bin/python",
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
-    "*": true,
-    "yaml": false,
+    "*": false,
     "plaintext": false,
-    "markdown": true,
+    "markdown": false,
+    "scminput": false,
+    "yaml": true,
     "rust": true,
     "python": true,
     "scss": true
@@ -124,5 +127,30 @@
   "typescript.implementationsCodeLens.enabled": true,
   "javascript.referencesCodeLens.enabled": true,
   "typescript.referencesCodeLens.enabled": true,
+<<<<<<< HEAD
   "window.zoomLevel": 1
+=======
+  "editor.stickyScroll.enabled": true,
+  "editor.mouseWheelScrollSensitivity": 0.25,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.wordWrap": "on",
+  "black-formatter.interpreter": [
+    "/Users/jacobsansbury/Projects/pluto-hq/pluto/.venv/bin/python"
+  ],
+  "python.languageServer": "Pylance",
+  "editor.minimap.scale": 2,
+  "editor.minimap.renderCharacters": false,
+  "eslint.options": {
+    "extensions": [".js", ".jsx", ".md", ".mdx", ".ts", ".tsx"]
+  },
+  "eslint.validate": [
+    "markdown",
+    "mdx",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "github.copilot.editor.enableAutoCompletions": true
+>>>>>>> 91e705b (Update brew.sh and use cask for Homebrew installation)
 }

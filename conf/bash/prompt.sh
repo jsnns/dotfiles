@@ -19,4 +19,4 @@ zstyle ':completion:*' matcher-list '' \
 
 # enable auto suggestions
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.me/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

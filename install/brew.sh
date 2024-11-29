@@ -1,5 +1,9 @@
 # Install Brew and Brew Packages
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/jacobsansbury/.zshrc
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 brew tap homebrew/cask
 brew tap homebrew/cask-versions
 

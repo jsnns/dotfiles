@@ -48,3 +48,54 @@ function @new () {
     mk ~/$PROJECT_DIR/$1
   fi
 }
+
+function @c () {
+  if [ $1 = "new" ]
+    then
+      # Check kiln project
+      @go earth-kiln/kiln
+      if [[ -n $(git status --porcelain) ]]; then
+        gt create --ai --all
+      else
+        echo "No changes to kiln"
+      fi
+
+      # Check potter project  
+      @go earth-kiln/potter
+      if [[ -n $(git status --porcelain) ]]; then
+        gt create --ai --all
+      else
+        echo "No changes to potter"
+      fi
+  fi
+
+  if [ $1 = "modify" ]
+    then
+      # Check kiln project
+      @go earth-kiln/kiln
+      if [[ -n $(git status --porcelain) ]]; then
+        gt modify
+      else
+        echo "No changes to kiln"
+      fi
+
+      # Check potter project  
+      @go earth-kiln/potter
+      if [[ -n $(git status --porcelain) ]]; then
+        gt modify
+      else
+        echo "No changes to potter"
+      fi
+  fi
+
+  if [ $1 = "submit" ]
+    then
+      # Check kiln project
+      @go earth-kiln/kiln
+      gt submit --merge-when-ready --reviewers Daakotaa
+
+      # Check potter project  
+      @go earth-kiln/potter
+      gt submit --merge-when-ready --reviewers Daakotaa
+  fi
+}

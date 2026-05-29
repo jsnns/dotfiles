@@ -1,4 +1,4 @@
-function pluto*() {
+function pluto() {
   (cd ~/Projects/plutocapital/pluto/k8s && ./deploy_new_image.sh)
 }
 
